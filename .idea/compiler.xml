@@ -7,11 +7,13 @@
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
         <module name="springboot-api" />
+        <module name="springboot-ssm" />
         <module name="springboot-utils" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
       <module name="springboot-api" target="1.8" />
+      <module name="springboot-ssm" target="1.8" />
       <module name="springboot-utils" target="1.8" />
       <module name="SpringbootTest" target="1.5" />
     </bytecodeTargetLevel>
