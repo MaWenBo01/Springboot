@@ -22,6 +22,9 @@ public class TestController {
 @RequestMapping(value = "/getDate",method = RequestMethod.GET)
     public String getDate(){
     Date d= CommonMethod.getCurDate();
+
+
+
     SimpleDateFormat df=new SimpleDateFormat("yyyy-MM-dd HH:mm:ss");
     return "当前时间："+df.format(d);
 }
